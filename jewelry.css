@@ -1,0 +1,142 @@
+/* styles.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #fce4ec; /* Light pink background */
+    color: #333; /* Dark text color */
+}
+
+header {
+    background-color: #ffb6c1; /* Pink header background */
+    padding: 15px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333; /* Dark text color */
+}
+
+main-content {
+    padding: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #ffb6c1; /* Pink footer background */
+}
+
+/* Additional styles for the Rings page */
+
+body {
+    background-color: #fff; /* White background */
+}
+
+.main-content {
+    padding: 20px;
+}
+
+h2 {
+    color: #ff4081; /* Pink heading color */
+    margin-bottom: 20px;
+}
+
+.product {
+    margin-bottom: 30px;
+    padding: 15px;
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 8px;
+    background-color: #f8f8f8; /* Light gray background */
+    display: inline-block;
+    width: 45%;
+}
+
+.product img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.product h3 {
+    color: #333; /* Dark text color */
+    margin-top: 10px;
+}
+
+.product p {
+    color: #666; /* Medium gray text color */
+}
+
+footer {
+    background-color: #ffb6c1; /* Pink footer background */
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+nav a:hover{
+    background-color: rgb(79, 15, 230);
+    text-decoration: underline;
+    padding: 10px;
+}
+.active{
+    background-color: deeppink;
+    padding: 10px;
+    color: white;
+}
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box; /* Include padding and border in element's total width/height */
+}
+input[type="submit"] {
+    background-color: #ff4081;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #d81b60;
+}
+.message {
+    display: none; /* Hide message by default */
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #e0f7fa;
+    border: 1px solid #00acc1;
+    border-radius: 5px;
+}
+
+form {
+    margin-top: 20px;
+}
+
+label {
+    display: block; /* Display labels on their own line */
+    margin-bottom: 5px;
+}
+.highlight {
+    font-weight: bold;
+    color: #333; /* Dark text color */
+}
+
+
